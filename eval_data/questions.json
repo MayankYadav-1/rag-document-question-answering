@@ -1,0 +1,299 @@
+{
+  "description": "Verified QA pairs for Northwind Robotics knowledge base. Each item lists the source document and an 'evidence' span that appears verbatim (after whitespace normalization) in that document. A retrieval is counted as a hit when a retrieved chunk overlaps the character range of this evidence span in the source document.",
+  "questions": [
+    {
+      "id": "pto-01",
+      "question": "How many PTO days do full-time employees accrue per month?",
+      "answer": "1.5 days per month.",
+      "doc": "pto-and-leave",
+      "evidence": "accrue paid time off at a rate of 1.5 days per month"
+    },
+    {
+      "id": "pto-02",
+      "question": "How many total PTO days does an employee get per year?",
+      "answer": "18 days per year.",
+      "doc": "pto-and-leave",
+      "evidence": "for a total of 18 days per year"
+    },
+    {
+      "id": "pto-03",
+      "question": "How long is the probationary period before PTO can be used?",
+      "answer": "The first 90 days of employment.",
+      "doc": "pto-and-leave",
+      "evidence": "it cannot be used during the first 90 days"
+    },
+    {
+      "id": "pto-04",
+      "question": "What is the maximum amount of PTO that can be carried over to the next year?",
+      "answer": "10 days.",
+      "doc": "pto-and-leave",
+      "evidence": "the maximum balance you may carry over is capped at 10 days"
+    },
+    {
+      "id": "pto-05",
+      "question": "How many paid sick days do employees receive each year?",
+      "answer": "10 paid sick days per year.",
+      "doc": "pto-and-leave",
+      "evidence": "employees receive 10 paid sick days per year"
+    },
+    {
+      "id": "pto-06",
+      "question": "When is a doctor's note required for sick leave?",
+      "answer": "For any sick absence longer than 3 consecutive days.",
+      "doc": "pto-and-leave",
+      "evidence": "A doctor's note is required for any sick absence longer than 3 consecutive days"
+    },
+    {
+      "id": "pto-07",
+      "question": "How much paid parental leave does Northwind offer?",
+      "answer": "16 weeks of fully paid parental leave.",
+      "doc": "pto-and-leave",
+      "evidence": "16 weeks of fully paid parental leave"
+    },
+    {
+      "id": "pto-08",
+      "question": "How much service is required to be eligible for parental leave?",
+      "answer": "At least 6 months of service.",
+      "doc": "pto-and-leave",
+      "evidence": "employees who have completed at least 6 months of service"
+    },
+    {
+      "id": "pto-09",
+      "question": "How many days of bereavement leave are available for an immediate family member?",
+      "answer": "Up to 5 days.",
+      "doc": "pto-and-leave",
+      "evidence": "up to 5 days of paid bereavement leave for an immediate family member"
+    },
+    {
+      "id": "remote-01",
+      "question": "Which days are the company-wide anchor days?",
+      "answer": "Tuesday and Thursday.",
+      "doc": "remote-work",
+      "evidence": "Tuesday and Thursday designated as company-wide anchor days"
+    },
+    {
+      "id": "remote-02",
+      "question": "How many days per week are most employees expected in the office?",
+      "answer": "At least 3 days per week.",
+      "doc": "remote-work",
+      "evidence": "in the office at least 3 days per week"
+    },
+    {
+      "id": "remote-03",
+      "question": "What are the required core working hours?",
+      "answer": "10:00 AM to 3:00 PM local time.",
+      "doc": "remote-work",
+      "evidence": "core hours of 10:00 AM to 3:00 PM in their local time zone"
+    },
+    {
+      "id": "remote-04",
+      "question": "How large is the one-time home office setup stipend?",
+      "answer": "$1,000.",
+      "doc": "remote-work",
+      "evidence": "one-time home office setup stipend of $1,000"
+    },
+    {
+      "id": "remote-05",
+      "question": "What monthly internet reimbursement do fully remote employees get?",
+      "answer": "$60 per month.",
+      "doc": "remote-work",
+      "evidence": "$60 per month internet and utilities reimbursement for fully remote employees"
+    },
+    {
+      "id": "remote-06",
+      "question": "Above what value must stipend-purchased equipment be returned on termination?",
+      "answer": "If its value exceeds $250.",
+      "doc": "remote-work",
+      "evidence": "must be returned upon termination if its value exceeds $250"
+    },
+    {
+      "id": "exp-01",
+      "question": "Within how many days must expenses be submitted?",
+      "answer": "Within 30 days of the transaction date.",
+      "doc": "expenses-and-travel",
+      "evidence": "submitted in Expensify within 30 days of the transaction date"
+    },
+    {
+      "id": "exp-02",
+      "question": "What expense amount requires an itemized receipt?",
+      "answer": "Any single expense over $75.",
+      "doc": "expenses-and-travel",
+      "evidence": "Any single expense over $75 requires an itemized receipt"
+    },
+    {
+      "id": "exp-03",
+      "question": "What is the expense approval limit for a direct manager?",
+      "answer": "Up to $500.",
+      "doc": "expenses-and-travel",
+      "evidence": "Expenses up to $500 can be approved by your direct manager"
+    },
+    {
+      "id": "exp-04",
+      "question": "When can business class flights be booked?",
+      "answer": "For international flights longer than 6 hours, with director approval.",
+      "doc": "expenses-and-travel",
+      "evidence": "Business class may be booked for international flights longer than 6 hours"
+    },
+    {
+      "id": "exp-05",
+      "question": "What is the meal per diem in the United States?",
+      "answer": "$70 per day.",
+      "doc": "expenses-and-travel",
+      "evidence": "meal per diem of $70 per day in the United States"
+    },
+    {
+      "id": "exp-06",
+      "question": "What is the mileage reimbursement rate?",
+      "answer": "$0.67 per mile.",
+      "doc": "expenses-and-travel",
+      "evidence": "reimbursed at $0.67 per mile"
+    },
+    {
+      "id": "exp-07",
+      "question": "What is the hotel spending cap in high-cost cities?",
+      "answer": "$350 per night.",
+      "doc": "expenses-and-travel",
+      "evidence": "$350 per night in high-cost cities"
+    },
+    {
+      "id": "sec-01",
+      "question": "What is the minimum password length?",
+      "answer": "At least 14 characters.",
+      "doc": "security-and-devices",
+      "evidence": "a password of at least 14 characters"
+    },
+    {
+      "id": "sec-02",
+      "question": "Which password manager must be used?",
+      "answer": "1Password.",
+      "doc": "security-and-devices",
+      "evidence": "stored in the company password manager, 1Password"
+    },
+    {
+      "id": "sec-03",
+      "question": "Is SMS-based MFA allowed?",
+      "answer": "No, SMS-based MFA is not permitted.",
+      "doc": "security-and-devices",
+      "evidence": "SMS-based MFA is not permitted"
+    },
+    {
+      "id": "sec-04",
+      "question": "After how long of inactivity must devices lock?",
+      "answer": "After 5 minutes of inactivity.",
+      "doc": "security-and-devices",
+      "evidence": "Devices must automatically lock after 5 minutes of inactivity"
+    },
+    {
+      "id": "sec-05",
+      "question": "How quickly must a suspected security incident be reported?",
+      "answer": "Within 1 hour.",
+      "doc": "security-and-devices",
+      "evidence": "must be reported to the security team within 1 hour"
+    },
+    {
+      "id": "ben-01",
+      "question": "What percent of the employee medical premium does Northwind cover?",
+      "answer": "100% for employees.",
+      "doc": "benefits-and-perks",
+      "evidence": "covers 100% of the medical, dental, and vision premium for employees"
+    },
+    {
+      "id": "ben-02",
+      "question": "How does the 401(k) match work?",
+      "answer": "100% up to 4% of salary, plus 50% of the next 2%.",
+      "doc": "benefits-and-perks",
+      "evidence": "matches 100% of employee 401(k) contributions up to 4% of salary, plus 50% of the next 2%"
+    },
+    {
+      "id": "ben-03",
+      "question": "What is the annual learning and development budget?",
+      "answer": "$2,000 per year.",
+      "doc": "benefits-and-perks",
+      "evidence": "annual learning and development budget of $2,000"
+    },
+    {
+      "id": "ben-04",
+      "question": "How much does the company contribute to an HSA for HDHP enrollees?",
+      "answer": "$1,200 per year.",
+      "doc": "benefits-and-perks",
+      "evidence": "annual company contribution of $1,200 into their Health Savings Account"
+    },
+    {
+      "id": "ben-05",
+      "question": "How does the equity vesting cliff work?",
+      "answer": "25% vests after the first year, then monthly over three years.",
+      "doc": "benefits-and-perks",
+      "evidence": "meaning 25% vests after the first year"
+    },
+    {
+      "id": "onc-01",
+      "question": "What is the on-call stipend?",
+      "answer": "$500 per week.",
+      "doc": "engineering-oncall",
+      "evidence": "on-call stipend of $500 per week"
+    },
+    {
+      "id": "onc-02",
+      "question": "How quickly must a SEV1 incident be acknowledged?",
+      "answer": "Within 5 minutes at any hour.",
+      "doc": "engineering-oncall",
+      "evidence": "Must be acknowledged within 5 minutes at any hour"
+    },
+    {
+      "id": "onc-03",
+      "question": "What uptime does the customer SLA guarantee?",
+      "answer": "99.9% uptime measured monthly.",
+      "doc": "engineering-oncall",
+      "evidence": "guarantees 99.9% uptime measured monthly"
+    },
+    {
+      "id": "onc-04",
+      "question": "When is the annual deploy freeze?",
+      "answer": "December 20 through January 2.",
+      "doc": "engineering-oncall",
+      "evidence": "deploy freeze from December 20 through January 2 each year"
+    },
+    {
+      "id": "prod-01",
+      "question": "What is the maximum payload of Atlas-7?",
+      "answer": "1,200 kilograms.",
+      "doc": "product-atlas7",
+      "evidence": "Maximum payload: 1,200 kilograms"
+    },
+    {
+      "id": "prod-02",
+      "question": "How long does the Atlas-7 battery last on a single charge?",
+      "answer": "Up to 11 hours of continuous operation.",
+      "doc": "product-atlas7",
+      "evidence": "up to 11 hours of continuous operation on a single charge"
+    },
+    {
+      "id": "prod-03",
+      "question": "How fast does the Atlas-7 battery charge to 80%?",
+      "answer": "In 45 minutes on the fast-charging dock.",
+      "doc": "product-atlas7",
+      "evidence": "reaches 80% charge in 45 minutes"
+    },
+    {
+      "id": "prod-04",
+      "question": "How many Atlas-7 units can one Fleet Controller coordinate?",
+      "answer": "Up to 200 units.",
+      "doc": "product-atlas7",
+      "evidence": "Up to 200 Atlas-7 units can be coordinated by a single instance"
+    },
+    {
+      "id": "prod-05",
+      "question": "What is the base price of an Atlas-7 unit?",
+      "answer": "$85,000.",
+      "doc": "product-atlas7",
+      "evidence": "The base Atlas-7 unit is priced at $85,000"
+    },
+    {
+      "id": "prod-06",
+      "question": "What is the standard hardware warranty for Atlas-7?",
+      "answer": "2 years.",
+      "doc": "product-atlas7",
+      "evidence": "standard 2-year hardware warranty"
+    }
+  ]
+}
