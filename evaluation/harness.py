@@ -1,13 +1,9 @@
 """The evaluation harness — the heart of this project.
-
 It holds the embedder fixed and sweeps:
-
     chunking strategy  ×  {no re-ranker, re-ranker}
-
 For every combination it builds an index, retrieves for all eval questions, and
 reports hit-rate@k and MRR. This is how you *measure* whether a change (semantic
 chunking, adding a re-ranker) actually helped instead of guessing.
-
 Run:  python -m evaluation.harness            # auto-detect real vs offline
       python -m evaluation.harness --embedder hash --reranker lexical
 """
